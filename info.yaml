@@ -1,0 +1,39 @@
+project:
+  title: "Mengrui's progect v52"
+  author: "BarryLee911"
+  discord: ""
+  description: "2048-sample sign overlap and approximate 1024-sample peak detector"
+  language: "Verilog"
+  clock_hz: 80000000
+  tiles: "3x2"
+  top_module: "tt_um_sine_area_detector"
+  source_files:
+    - "project.v"
+
+pinout:
+  ui[0]: "ADC[0]"
+  ui[1]: "ADC[1]"
+  ui[2]: "ADC[2]"
+  ui[3]: "ADC[3]"
+  ui[4]: "ADC[4]"
+  ui[5]: "ADC[5]"
+  ui[6]: "ADC[6]"
+  ui[7]: "ADC[7]"
+  uo[0]: "DATA[0]"
+  uo[1]: "DATA[1]"
+  uo[2]: "DATA[2]"
+  uo[3]: "DATA[3]"
+  uo[4]: "DATA[4]"
+  uo[5]: "DATA[5]"
+  uo[6]: "DATA[6]"
+  uo[7]: "DATA[7]"
+  uio[0]: "LEVEL[0] / TYPE (0=area, 1=peak)"
+  uio[1]: "LEVEL[1]"
+  uio[2]: "LEVEL[2]"
+  uio[3]: "LEVEL[3]"
+  uio[4]: "LEVEL[4]"
+  uio[5]: "DATA[8]"
+  uio[6]: "DATA[9]"
+  uio[7]: "DATA[10]"
+
+yaml_version: 6
